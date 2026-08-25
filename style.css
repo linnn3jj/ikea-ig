@@ -138,6 +138,24 @@ body {
     margin-left: auto;
 }
 
+/* 修改按鈕列 padding */
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px 5px; /* 將 14px 改為 16px */
+}
+
+/* 修改按讚數 padding */
+.likes {
+    padding: 5px 16px;       /* 將 15px 改為 16px */
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;        /* 確保靠左對齊 */
+}
+
+
+
 
 /* 文案 */
 
