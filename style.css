@@ -86,18 +86,12 @@ body {
 
 .post-image {
     width: 100%;
-
-    aspect-ratio: 1 / 1;
-
-    overflow: hidden;
+    background-color: white;
 }
 
 .post-image img {
     width: 100%;
-    height: 100%;
-
-     object-fit: contain;
-
+    height: auto;
     display: block;
 }
 
