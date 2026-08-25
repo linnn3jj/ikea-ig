@@ -100,10 +100,8 @@ body {
 
 .post-actions {
     display: flex;
-
     justify-content: space-between;
     align-items: center;
-
     padding: 10px 14px 5px;
 }
 
@@ -112,29 +110,32 @@ body {
     gap: 14px;
 }
 
+/* 1. 修改原本的 button 樣式 */
 .post-actions button {
     border: none;
-
     background: none;
-
     padding: 0;
+    cursor: pointer;          /* 滑鼠游標變為手型 */
+    display: flex;             /* 讓 SVG 圖標在按鈕內垂直居中 */
+    align-items: center;
+    justify-content: center;
+    color: #000000;           /* 控制 SVG 圖標顏色（預設黑色） */
+    transition: opacity 0.2s;  /* 按下時的平滑過渡 */
+}
 
-    font-size: 27px;
+/* 2. 新增控制 SVG 大小的樣式 */
+.post-actions button svg {
+    width: 24px;              /* 圖標寬度 */
+    height: 24px;             /* 圖標高度 */
+}
+
+/* 3. 新增懸浮與點擊效果 */
+.post-actions button:hover {
+    opacity: 0.6;             /* 滑鼠移上去稍微變淡 */
 }
 
 .save {
     margin-left: auto;
-}
-
-
-/* 按讚 */
-
-.likes {
-    padding: 5px 15px;
-
-    font-size: 14px;
-
-    font-weight: bold;
 }
 
 
