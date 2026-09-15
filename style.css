@@ -227,24 +227,13 @@ body {
 /* 留言文字 */
 
 .comment-body {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.5;
     word-break: break-word;
 }
 
 
-/* 回覆／翻譯年糕 */
 
-.comment-tools {
-    display: flex;
-    gap: 18px;
-    margin-top: 7px;
-
-    color: #737373;
-
-    font-size: 10px;
-    font-weight: 600;
-}
 
 
 /* 右邊愛心 */
@@ -301,7 +290,7 @@ body {
 
     color: #8e8e8e;
 
-    font-size: 12px;
+    font-size: 14px;
 }
 
 
