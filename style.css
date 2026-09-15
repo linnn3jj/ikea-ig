@@ -167,8 +167,7 @@ body {
 ========================= */
 
 .comments {
-    padding:0 15px 15px;
-    font-size: 14px;
+    padding: 0 15px 15px;
 }
 
 
@@ -176,8 +175,6 @@ body {
 
 .comment {
     margin-top: 14px;
-     padding-left: 15px;
-    padding-right: 15px;
 }
 
 
@@ -228,10 +225,9 @@ body {
 
 .comment-body {
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 1.6;
     word-break: break-word;
 }
-
 
 
 
