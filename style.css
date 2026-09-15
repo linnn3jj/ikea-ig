@@ -166,16 +166,131 @@ body {
 
 .comments {
     padding: 0 15px 15px;
-
     font-size: 14px;
 }
 
-.comment {
-    margin-top: 8px;
 
-    line-height: 1.5;
+/* 每一則留言 */
+
+.comment {
+    margin-top: 16px;
 }
 
+
+/* 留言內容＋右邊愛心 */
+
+.comment-content {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+
+/* 左邊文字 */
+
+.comment-text {
+    flex: 1;
+    min-width: 0;
+}
+
+
+/* 帳號名稱＋時間 */
+
+.comment-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    margin-bottom: 3px;
+}
+
+
+/* 帳號名稱 */
+
+.comment-header strong {
+    font-weight: 700;
+}
+
+
+/* 幾天前／幾小時前 */
+
+.comment-time {
+    color: #737373;
+    font-size: 14px;
+}
+
+
+/* 留言文字 */
+
+.comment-body {
+    line-height: 1.45;
+    word-break: break-word;
+}
+
+
+/* 回覆／翻譯年糕 */
+
+.comment-tools {
+    display: flex;
+    gap: 18px;
+
+    margin-top: 8px;
+
+    color: #737373;
+
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+/* =========================
+   留言右側愛心
+========================= */
+
+.comment-like {
+    width: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding-top: 3px;
+}
+
+
+/* 愛心按鈕 */
+
+.comment-heart {
+    border: none;
+    background: none;
+
+    padding: 0;
+
+    width: 20px;
+    height: 20px;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* 愛心圖示 */
+
+.comment-heart svg {
+    width: 17px;
+    height: 17px;
+
+    fill: none;
+    stroke: #737373;
+
+    stroke-width: 2;
+
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
 
 /* 留言輸入 */
 
