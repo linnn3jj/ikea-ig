@@ -166,7 +166,7 @@ body {
 
 .comments {
     padding: 0 15px 15px;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 
@@ -183,6 +183,7 @@ body {
     display: flex;
     align-items: flex-start;
     width: 100%;
+    padding: 0;
 }
 
 
