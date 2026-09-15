@@ -211,7 +211,7 @@ body {
 /* 帳號名稱 */
 
 .comment-header strong {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
 }
 
@@ -220,7 +220,7 @@ body {
 
 .comment-time {
     color: #737373;
-    font-size: 11px;
+    font-size: 14px;
 }
 
 
