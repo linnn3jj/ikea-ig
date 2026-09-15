@@ -167,7 +167,7 @@ body {
 ========================= */
 
 .comments {
-    padding:0 30px 15px;
+    padding:0 15px 15px;
     font-size: 14px;
 }
 
@@ -176,6 +176,8 @@ body {
 
 .comment {
     margin-top: 14px;
+     padding-left: 15px;
+    padding-right: 15px;
 }
 
 
@@ -360,7 +362,7 @@ body {
     }
 
     .comments {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
