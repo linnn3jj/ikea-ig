@@ -175,6 +175,7 @@ body {
 
 .comment {
     margin-top: 16px;
+    width: 100%;
     padding: 0 10px;
 }
 
@@ -228,7 +229,7 @@ body {
 
 .comment-body {
     font-size: 14px;
-    padding-right: 38px;
+    padding-right: 28px;
     line-height: 1.5;
     word-break: break-word;
     color: #262626;
@@ -294,7 +295,7 @@ body {
 .comment-input {
     border-top: 1px solid #efefef;
 
-    padding: 12px 15px;
+    padding:  15px;
 
     color: #8e8e8e;
 
@@ -364,7 +365,7 @@ body {
 }
 
 .comment {
-    margin-top: 16px;
+    margin-top: 18px;
     padding-left: 0;
     padding-right: 0;
 }
