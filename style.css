@@ -341,13 +341,13 @@ body {
         padding-right: 12px;
     }
 
-    .caption {
+   .caption {
         padding-left: 15px;
         padding-right: 15px;
     }
 
     .comments {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+        padding-left: 0;
+        padding-right: 0;
+  }
 }
