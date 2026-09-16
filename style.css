@@ -174,7 +174,8 @@ body {
 /* 每一則留言 */
 
 .comment {
-    margin-top: 14px;
+    margin-top: 16px;
+    padding: 0 10px;
 }
 
 
@@ -187,7 +188,7 @@ body {
 }
 
 
-/* 左邊文字 */
+/* 左邊文字區 */
 
 .comment-text {
     flex: 1;
@@ -199,9 +200,9 @@ body {
 
 .comment-header {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     gap: 6px;
-    margin-bottom: 3px;
+    margin-bottom: 4px;
 }
 
 
@@ -210,6 +211,7 @@ body {
 .comment-header strong {
     font-size: 14px;
     font-weight: 700;
+    color: #262626;
 }
 
 
@@ -218,6 +220,7 @@ body {
 .comment-time {
     color: #737373;
     font-size: 11px;
+    font-weight: 400;
 }
 
 
@@ -225,17 +228,20 @@ body {
 
 .comment-body {
     font-size: 14px;
-    line-height: 1.6;
+    line-height: 1.5;
     word-break: break-word;
+    color: #262626;
 }
 
 
-
-
-/* 右邊愛心 */
+/* =========================
+   留言右側愛心
+========================= */
 
 .comment-like {
-    width: 30px;
+    width: 28px;
+
+    flex-shrink: 0;
 
     display: flex;
     justify-content: center;
@@ -272,12 +278,17 @@ body {
 
     fill: none;
     stroke: #737373;
+
     stroke-width: 2;
+
     stroke-linecap: round;
     stroke-linejoin: round;
 }
 
-/* 留言輸入 */
+
+/* =========================
+   新增留言 
+========================= */
 
 .comment-input {
     border-top: 1px solid #efefef;
@@ -341,13 +352,19 @@ body {
         padding-right: 12px;
     }
 
-   .caption {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+  .caption {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
-    .comments {
-        padding-left: 0;
-        padding-right: 0;
-  }
+.comments {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.comment {
+    margin-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+}
 }
